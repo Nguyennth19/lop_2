@@ -16,7 +16,7 @@ Các pose gồm đứng, chào, viết, đọc, chỉ dẫn, ăn mừng hoặc b
 - Đã có alpha RGBA, cắt từ từng ô 3x2; file WebP alpha phục vụ app.
 - Phải duyệt tay: cắt tay/tóc, dính vật thể ở biên, các phụ kiện và độ đồng nhất khuôn mặt. Chưa thể coi là sạch và sẵn sàng production.
 - Tài liệu đầy đủ: `ASSET_MANIFEST.csv`, `ASSET_MANIFEST.json`, `QA_CONTACT_SHEET.png`, prompt từng nhóm và source sheet; thuộc bộ ZIP v1.0.0.
-- Bản ZIP sha256 `30ab02871df149651596e7fb5aafd1544fc061170ad2b7efa396154f1d38bfbf`.
+- Bản ZIP sha256 `80917390a3979b32175e9ced4024669ac1be345e655d96fc41707373ebad1a99`.
 
 ### Tài liệu nguồn
 - [Style Lock](STYLE_LOCK_V1.md)
