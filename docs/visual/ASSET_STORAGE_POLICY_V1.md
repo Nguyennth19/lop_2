@@ -27,5 +27,5 @@ Nếu một nhánh lỗi, không được tự tuyên bố đồng bộ hoàn t�
 Không commit token, service account key, clasp credentials, điểm số hay thông tin riêng của trẻ. Không lấy Google Drive share URL làm CDN phục vụ giao diện. Apps Script kết nối GitHub ở giai đoạn cấu hình riêng, cần kiểm tra quyền và bảo vệ secret.
 
 ## Phát hành v1.0.0 này
-Bản ZIP gốc có SHA-256: `30ab02871df149651596e7fb5aafd1544fc061170ad2b7efa396154f1d38bfbf`.
+Bản ZIP gốc có SHA-256: `80917390a3979b32175e9ced4024669ac1be345e655d96fc41707373ebad1a99`.
 **30 PNG, 30 WebP đã được tạo cục bộ, nhưng chưa có xác nhận tải ảnh gốc lên Drive/GitHub.** Không ghi status SYNCED_VERIFIED cho đến khi xác minh.
