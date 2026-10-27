@@ -28,4 +28,7 @@ Không commit token, service account key, clasp credentials, điểm số hay th
 
 ## Phát hành v1.0.0 này
 Bản ZIP gốc có SHA-256: `80917390a3979b32175e9ced4024669ac1be345e655d96fc41707373ebad1a99`.
-**30 PNG, 30 WebP đã được tạo cục bộ, nhưng chưa có xác nhận tải ảnh gốc lên Drive/GitHub.** Không ghi status SYNCED_VERIFIED cho đến khi xác minh.
+**Đã xác nhận Drive lưu 30 PNG + 30 WebP và ZIP gốc; tải ngược 60/60 ảnh và ZIP khớp byte/SHA-256 với bản phát hành tại chỗ. GitHub lưu chỉ mục 30 asset IDs / 60 Drive file IDs, không lưu nhị phân.** Không ghi status SYNCED_VERIFIED cho đến khi xác minh.
+
+## Xác minh ngày 27/10/2026
+Báo cáo [DUAL_STORAGE_VERIFICATION_V1.md](DUAL_STORAGE_VERIFICATION_V1.md). Drive cũng lưu [bản báo cáo](https://drive.google.com/file/d/1POewCpboLyw1USHrhKH8taP7ZL1J_-G4/view). `SYNCED_VERIFIED` nghĩa là bản lưu trữ và metadata đã xác minh; không phải duyệt chất lượng ảnh. `REVIEW_REQUIRED` giữ nguyên đối với hình đã tách.
