@@ -27,3 +27,8 @@ Các pose gồm đứng, chào, viết, đọc, chỉ dẫn, ăn mừng hoặc b
 - Upload file nhị phân chính thức Drive + GitHub, read-back hai kho.
 - Chốt QA từng nhân vật. Một phần crop có thể cần sửa tay.
 - Kết nối GitHub ↔ Google Apps Script.
+
+
+## Tình trạng xác minh bổ sung 27/10/2026
+- 30 PNG + 30 WebP đã tải lên Drive và tải ngược, toàn bộ khớp byte với bản ZIP gốc. GitHub đã lưu đủ 30 mã, 60 file ID và SHA-256 PNG.
+- Lưu trữ `SYNCED_VERIFIED` nhưng hình cắt vẫn `REVIEW_REQUIRED`. Xem [báo cáo chi tiết](DUAL_STORAGE_VERIFICATION_V1.md).
