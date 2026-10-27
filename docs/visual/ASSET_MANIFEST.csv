@@ -1,0 +1,13 @@
+asset_id,character,pose,costume,status,alpha,notes
+CHR_BOY_STAND_001,BOY,stand,everyday,NOT_GENERATED,NO,Need new neutral master
+CHR_BOY_WRITE_001,BOY,write,everyday,REFERENCE_ONLY,NO,Reference in approved Math card
+CHR_BOY_THINK_001,BOY,think,everyday,REFERENCE_ONLY,NO,Reference in approved Math card
+CHR_BOY_POINT_001,BOY,point,everyday,REFERENCE_ONLY,NO,Reference in approved Math card
+CHR_GIRL_STAND_001,GIRL,stand,everyday,NOT_GENERATED,NO,Need new neutral master
+CHR_GIRL_WRITE_001,GIRL,write,everyday,REFERENCE_ONLY,NO,Reference in approved Vietnamese card
+CHR_GIRL_THINK_001,GIRL,think,everyday,REFERENCE_ONLY,NO,Reference in approved Vietnamese card
+CHR_GIRL_POINT_001,GIRL,point,everyday,NOT_GENERATED,NO,Need new pose
+CHR_BOY_UNIFORM_STAND_001,BOY,stand,uniform,NOT_GENERATED,NO,Uniform requires review
+CHR_BOY_UNIFORM_RAISE_HAND_001,BOY,raise_hand,uniform,NOT_GENERATED,NO,Uniform requires review
+CHR_GIRL_UNIFORM_STAND_001,GIRL,stand,uniform,NOT_GENERATED,NO,Uniform requires review
+CHR_GIRL_UNIFORM_RAISE_HAND_001,GIRL,raise_hand,uniform,NOT_GENERATED,NO,Uniform requires review
