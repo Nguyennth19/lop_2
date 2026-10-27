@@ -12,7 +12,7 @@ Hệ thống học tập hai môn **Toán** và **Tiếng Việt** lớp 2, dự
 ## Giai đoạn 1B – Character Asset Library
 - Đã dựng 5 sheet, trích **30 PNG + 30 WebP**.
 - Các hình có alpha thực, **chưa hoàn tất QA ranh giới**. Một số pose cần tách/chỉnh tay để loại vết cắt ở sát ô. Không dùng production trước khi duyệt.
-- Bản ZIP hiện có: `KidLearn_Release_v1.zip`, **SHA-256 `80917390a3979b32175e9ced4024669ac1be345e655d96fc41707373ebad1a99`**. File ZIP chưa được đẩy lên GitHub/Google Drive qua connector.
+- Bản ZIP hiện có: `KidLearn_Release_v1.zip`, **SHA-256 `80917390a3979b32175e9ced4024669ac1be345e655d96fc41707373ebad1a99`**. Bản ZIP và 60 hình PNG/WebP đã được lưu trên Google Drive. GitHub lưu chỉ mục và checksum, không lưu bản nhị phân.
 - [Danh mục 30 pose](assets/RELEASE_INDEX_V1.csv) • [Phiên bản và QA](docs/visual/CHARACTER_RELEASE_V1.md) • [Prompt](docs/visual/PROMPT_REGISTRY_V1.md).
 
 ## Chính sách lưu trữ kép (bắt buộc)
@@ -23,4 +23,7 @@ Hệ thống học tập hai môn **Toán** và **Tiếng Việt** lớp 2, dự
 
 Đọc: [ASSET_STORAGE_POLICY_V1.md](docs/visual/ASSET_STORAGE_POLICY_V1.md) và [định hướng Google Apps Script](docs/architecture/INTEGRATION.md).
 
-**Tình trạng kết nối:** Mã và quy chuẩn đã có PR nháp; kho ảnh Drive đã có cấu trúc thư mục. Chưa có quy trình upload binary và tự động hóa Apps Script vận hành thực tế.
+**Tình trạng kết nối:** Mã và quy chuẩn đã có PR nháp; ZIP và 60/60 ảnh Drive đã được đọc lại và đối chiếu toàn vẹn. Chưa có tự động hóa Google Apps Script.
+
+## Xác minh kho tài nguyên
+[Báo cáo xác minh lưu trữ kép và QA](docs/visual/DUAL_STORAGE_VERIFICATION_V1.md): 60/60 ảnh khớp SHA-256/byte; lưu trữ `SYNCED_VERIFIED`, chất lượng nghệ thuật `REVIEW_REQUIRED`.
