@@ -36,3 +36,6 @@ Date: 2026-10-28 (ICT). Release candidate for human visual approval.
 - Desktop screenshot: https://drive.google.com/file/d/179W6CtGDvjn0-W1p2NQ2Cpbwy063iDg0/view
 - Mobile screenshot: https://drive.google.com/file/d/1W8LRyg39kSlCNxsQbH9FCxM_RPT_zHLQ/view
 - **Remaining:** actual user-device Chrome check with extracted ZIP and human visual/attention approval. Do not mark artwork APPROVED.
+
+## Human acceptance — 2026-10-28 (ICT)
+The project owner explicitly confirmed hands-on visual use testing of the KidLearn v1.0.1 preview and accepted its appearance and suitability. The child enjoyed the preview. **ART: APPROVED** for the 30 official character assets in this release on the basis of this human acceptance. **STORAGE: SYNCED_VERIFIED** remains unchanged. This approval does not certify pedagogical alignment of sample Math/Vietnamese questions, production deployment, accessibility, or cross-browser/device testing beyond those already recorded. Earlier pending-gate text above is retained as historical pre-approval QA context. No merge into `main` is authorized by this acceptance.
