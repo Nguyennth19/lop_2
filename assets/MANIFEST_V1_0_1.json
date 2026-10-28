@@ -3,8 +3,10 @@
   "release_date": "2026-10-28",
   "status": {
     "storage": "SYNCED_VERIFIED",
-    "art": "REVIEW_REQUIRED",
-    "app": "MANUAL_CHROME_QA_PENDING"
+    "art": "APPROVED",
+    "app": "HUMAN_VISUAL_ACCEPTED",
+    "pedagogy": "NOT_YET_VALIDATED",
+    "human_acceptance_date": "2026-10-28"
   },
   "storage": {
     "drive_folder": "https://drive.google.com/drive/folders/1lDde-KUs8sc5UQ3GP0GEuPdLmn2YqT2x",
@@ -32,7 +34,7 @@
       "png_sha256": "1d6e6c358a80d8393d38f056ade48d14713f0a5bf60bf98d820809a356a6094e",
       "webp_sha256": "856e4270e828cd8099a5e0de2b1bb22ea10a819ee9d2508af967400dfaca45c5",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_ROBOT_MASCOT_02_wave_step_v1.0.0",
@@ -46,7 +48,7 @@
       "png_sha256": "f253b689b2794a4b45bb441171b88b429ab59c5a83738c8951c63f7f3b8a49e2",
       "webp_sha256": "24bb9ff1676886a01d0860a4515ae63dc48d0a2cba203b369d31e737201c0032",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_ROBOT_MASCOT_03_point_right_v1.0.0",
@@ -60,7 +62,7 @@
       "png_sha256": "6981a76a94a6bb56f99c240853cd6bb48efbefde776517c1055ae9291175217e",
       "webp_sha256": "bbb5855b34986fbe561f2dfdd3eb729abe3a66b88bee1e7a1aab25ddbb124ce3",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_ROBOT_MASCOT_04_read_book_v1.0.0",
@@ -74,7 +76,7 @@
       "png_sha256": "621727b3dad3032423c180c87979ad478495e40d8392d0e4b2dcdf7383eb9416",
       "webp_sha256": "45c791f0ec461fc940f5b1ef6aaee2d9fb0fac3b1cb24fd78f1342ec9683b013",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_ROBOT_MASCOT_05_wink_pencil_thumbsup_v1.0.0",
@@ -88,7 +90,7 @@
       "png_sha256": "88faa96bd2a57ae97ba9473b4ba3b89d74c0afcf07dba54b989d05132b21eeaa",
       "webp_sha256": "117201f2c7801ad6594386904e4971c52b8df8f9141d4091cce36da78561e9d8",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_ROBOT_MASCOT_06_jump_cheer_v1.0.0",
@@ -102,7 +104,7 @@
       "png_sha256": "00caf7854e9b96b950103cde4bdfffb3c785f6f055729a7c72e61a71c33ffb82",
       "webp_sha256": "41f8631307175816b997491c245ef0e283aa618b13e65d89f5ddada4d22acb32",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_BOY_HOME_01_standing_front_v1.0.0",
@@ -116,7 +118,7 @@
       "png_sha256": "935b524c5574c914831a8d5aa38a01d9373eaa2b167b88c4e69d5d8da9467f6e",
       "webp_sha256": "a61f77ac1210c5e41328637662f67a43ce1967cc92408644fbd03315ebb40567",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_BOY_HOME_02_wave_v1.0.0",
@@ -130,7 +132,7 @@
       "png_sha256": "8acd4b297be232f2220c8a3b91c635fefa688e50b3230f407f4b9a05a3752a6e",
       "webp_sha256": "5d8921558f2591cd051d6f16d12281377a69dfcd2f91893e832adf7cf0f1a398",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_BOY_HOME_03_write_table_v1.0.1",
@@ -144,7 +146,7 @@
       "png_sha256": "b19ab4b7ee3bde797800211e62081044548af43338df4a8c59e5124cd92a48e1",
       "webp_sha256": "3ca3641cd2b1c386386c1181f820bae554bd0f9e1aa6bfd077c2da5eb37a3677",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_BOY_HOME_04_read_book_v1.0.0",
@@ -158,7 +160,7 @@
       "png_sha256": "6da41dc2e4d299460eede20c438ae6eb74a29f782c6d1a4de0470e4d65a60eca",
       "webp_sha256": "1c83a607ae28e3824edb7db1d56466f1e53831c9f64e10d18ea8182dac41b487",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_BOY_HOME_05_point_book_v1.0.0",
@@ -172,7 +174,7 @@
       "png_sha256": "7a145e67ad4c6bd1092c2ee8d4ab8ccce3d6ce8b364e7b7df5bf0036647f8747",
       "webp_sha256": "93795ec7fd26812e08b840411612f2f1cf27deb6e44463b76aec6e1a4baa10de",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_BOY_HOME_06_jump_cheer_v1.0.0",
@@ -186,7 +188,7 @@
       "png_sha256": "3e3134f21afdbe0255a9d05555b55dcc40f27c69aaa8fd4f4dc1fbc6bfc2780b",
       "webp_sha256": "daecde2c985433295fb409c43b5cbc53a09ffeb395c9f7fbf802c1cc05cfa681",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_BOY_SCHOOL_01_with_backpack_v1.0.0",
@@ -200,7 +202,7 @@
       "png_sha256": "333e8206757d7512264ad59da966b78f0145002f409ddf1157a48b1b654e92c1",
       "webp_sha256": "a1bf5623d85a75d1810a615036baf807a35c1203ac6378523783419c816e62dd",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_BOY_SCHOOL_02_wave_v1.0.0",
@@ -214,7 +216,7 @@
       "png_sha256": "2a42ab245b50e1d93a7e732ad4255fa24e276b2049ffb34b9824cec6348ba9c9",
       "webp_sha256": "25b6759de1defc6cd88696b1fedc98979b043eeadaa4a615c94a06836a24b9fd",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_BOY_SCHOOL_03_hold_books_v1.0.0",
@@ -228,7 +230,7 @@
       "png_sha256": "b134c0c9f9e623f717188ff61ba2325c89113cb2207f0dfca2973b9ed36db5a3",
       "webp_sha256": "1a24290a0e79b6adaef513a116b6b39841ce20082bbda83436d37bcd7d7c471a",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_BOY_SCHOOL_04_write_desk_v1.0.1",
@@ -242,7 +244,7 @@
       "png_sha256": "4f89c0e106e7eb4a135a682a46594f4b1f1e9c351a4a1867cd9aff1c975d5e48",
       "webp_sha256": "7ca4621deb3852588527e2cfa13a6302897348111ef894171a63a542dab5d0a4",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_BOY_SCHOOL_05_point_book_v1.0.1",
@@ -256,7 +258,7 @@
       "png_sha256": "e6eb75ed3fc0a5b1839b97b8e5b11663f62f9ac27bd97d1abe5f9ff97b12744f",
       "webp_sha256": "75ed4df7618c393bd8b617feeb0c5b8dd9fee913fe98ce5d0dced174253c653c",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_BOY_SCHOOL_06_walk_backpack_v1.0.0",
@@ -270,7 +272,7 @@
       "png_sha256": "9d3ae8dbdfea405e1e96b0085708d113d6bf3a2c4b29cf2c1813b6a53e2ae5be",
       "webp_sha256": "31824208fd9e6c4ed1af245a53a0f3074277e7c0f40d228589e0e4ba7fd1e713",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_GIRL_HOME_01_standing_front_v1.0.0",
@@ -284,7 +286,7 @@
       "png_sha256": "6925a6801cd613e0b18d85d7605c9e5864c09a0d0d3d2aaf87c28997586fd162",
       "webp_sha256": "4e36d3f43859a969f6380f4f75a25fe0c5232dc0f4f6e0219dc49c2f134942e1",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_GIRL_HOME_02_wave_v1.0.0",
@@ -298,7 +300,7 @@
       "png_sha256": "38cb4dc79df58bc62f3aa1ada5cda83da158eeecbc4c230f095fd90e6e5adfed",
       "webp_sha256": "609f92aab88e5dbd2b47dfe2bdb172d6f37137bb381cc858bab14345c8dbf246",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_GIRL_HOME_03_write_table_v1.0.1",
@@ -312,7 +314,7 @@
       "png_sha256": "3934b362ee995648ce7c4921a5893cf6b13492fc3288f80193759d91827c87f8",
       "webp_sha256": "76522936368db5b4a519b1766217dad66f45b7369e48c4e216f38b999b5f52a9",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_GIRL_HOME_04_read_book_v1.0.0",
@@ -326,7 +328,7 @@
       "png_sha256": "477d76ad82985a99bc5e410f404c0feba2e18e4a297c86e2c2c4bb727d969858",
       "webp_sha256": "89895d2af21054dcaca390236cc04ad2ce63ea988d618bbe74c4c5a5c877e462",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_GIRL_HOME_05_point_book_v1.0.0",
@@ -340,7 +342,7 @@
       "png_sha256": "696afbf0f4e35a8d56a4a42d53aaf8e0883d0a02ac3453f5ad043803d2f1717f",
       "webp_sha256": "800a79ca036a0a92dbd28db9bbaf5247f7c1fa96e963429d7056b5afe57353c7",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_GIRL_HOME_06_jump_cheer_v1.0.0",
@@ -354,7 +356,7 @@
       "png_sha256": "a097a9a0c253dfc47375763801faa3fa9132644eaf469a89c7511f8fa1c9fb53",
       "webp_sha256": "547d800140ecac345634eda934d3c5abf0b5faa035a641438775567fcfc4ca42",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_GIRL_SCHOOL_01_with_backpack_v1.0.0",
@@ -368,7 +370,7 @@
       "png_sha256": "fb3cf6ad920f9f8edff389c602ea0282736dd4d9fa72674122a5efb39a758074",
       "webp_sha256": "8aa2a562590b88d7089129ac2eef44193baec28332744eb55e83393bb94d6916",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_GIRL_SCHOOL_02_wave_v1.0.0",
@@ -382,7 +384,7 @@
       "png_sha256": "c12a0d77246313af8b48ad3a6490f2b90dc0cd60acec5cce262a40abaf4fc338",
       "webp_sha256": "2c4677117648280c48ce1f48011fa78577232ddea2aa34738e16dfa74bae3afb",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_GIRL_SCHOOL_03_hold_books_v1.0.0",
@@ -396,7 +398,7 @@
       "png_sha256": "b17badc218ed13a8c0b4d3d308eeb823ad31d10d72e0fa7b0252a0dab0b34a0e",
       "webp_sha256": "16aa5600eb8fa611aacf8d0a7f51cd883086b1177d2f100cf9a2f01c05c89e97",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_GIRL_SCHOOL_04_write_desk_v1.0.1",
@@ -410,7 +412,7 @@
       "png_sha256": "e737d4125dec8d9e33786462e147d7857a153cdb99c3f236c012fdaeb5ec6b18",
       "webp_sha256": "3647d88e89a021cf1733bdad24da32ac9329ff81e959734705d705de27b81bcc",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_GIRL_SCHOOL_05_point_book_v1.0.1",
@@ -424,7 +426,7 @@
       "png_sha256": "e24a466df3958b0d7326a1d25eeebffc35cc2bd3a7d06b68c2bd22a823eda810",
       "webp_sha256": "a7e8dec3208b15a42539bff3a542462fa089647e3008e8f354a502297cfe78c1",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     },
     {
       "asset_id": "KL_GIRL_SCHOOL_06_walk_backpack_v1.0.0",
@@ -438,7 +440,7 @@
       "png_sha256": "46625834cde7e78a512420b5cde0493012bb74504d527e36a5921cc9d6f98d15",
       "webp_sha256": "2fa2addc5839488873c21e22a54e1b2080bbbc9ed412a4ce3da4ed686c98c17c",
       "storage_status": "SYNCED_VERIFIED",
-      "visual_qa": "REVIEW_REQUIRED"
+      "visual_qa": "APPROVED"
     }
   ]
 }
