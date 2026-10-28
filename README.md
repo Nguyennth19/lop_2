@@ -1,23 +1,29 @@
 # KidLearn – Lớp 2
 
-Dự án ứng dụng hỗ trợ học **Toán** và **Tiếng Việt** lớp 2, dự kiến tích hợp **GitHub + Google Apps Script + Google Drive**.
+Hệ thống học tập hai môn **Toán** và **Tiếng Việt** lớp 2, dự kiến triển khai với GitHub, Google Apps Script và Google Drive.
 
-> **Trạng thái 27/10/2026:** Giai đoạn 1B – thiết kế Character Master, chưa tạo đủ 12 ảnh nền trong, chưa triển khai Apps Script.
+## Quyết định đã khóa (27/10/2026)
+- **Robot:** phong cách B – Chibi Hero Soft Shading; giữ giáp xanh, huy hiệu sách, mắt lớn, nổi bật vừa đủ.
+- **Bé nam:** chibi sách học tập – tóc nâu ngắn, má hồng, mắt to, trang phục xanh/trắng.
+- **Bé nữ:** chibi sách học tập – tóc nâu, nơ hồng, má hồng, mắt to, phối hồng/trắng/xanh.
+- Nhân vật có hai biến thể **Ở nhà** và **Ở trường** (đồng phục); bộ tạo hình đã được lựa chọn về hướng phong cách, từng pose độc lập vẫn cần QA.
+- Nội dung **LV1 = SGK; LV2 = VBT; LV3 = tài liệu tham khảo**; SGV chỉ dùng cho định hướng sư phạm; chia theo đầu bài và skill.
 
-## Quyết định phong cách (đã được chủ dự án duyệt)
-- **Robot:** phong cách B – Chibi Hero Soft Shading; giữ giáp xanh, mắt to, huy hiệu sách, vừa đủ nổi bật để dẫn dắt.
-- **Bé nam:** theo thẻ Toán mẫu đã duyệt, tóc nâu ngắn, mắt tròn và má hồng, xanh–trắng; phong cách chibi tranh sách.
-- **Bé nữ:** theo thẻ Tiếng Việt mẫu đã duyệt, tóc nâu, nơ hồng, mắt tròn và má hồng, hồng–trắng–xanh.
-- **Đồng phục:** ý tưởng tùy chọn chưa được duyệt; không tự động thay trang phục gốc.
-- Nội dung: **LV1 = SGK**, **LV2 = VBT**, **LV3 = tài liệu tham khảo**; sách giáo viên chỉ tham khảo sư phạm. Phân bài theo đầu bài, gắn mã kỹ năng, không ép theo tuần.
+## Giai đoạn 1B – Character Asset Library
+- Đã dựng 5 sheet, trích **30 PNG + 30 WebP**.
+- Các hình có alpha thực, **chưa hoàn tất QA ranh giới**. Một số pose cần tách/chỉnh tay để loại vết cắt ở sát ô. Không dùng production trước khi duyệt.
+- Bản ZIP hiện có: `KidLearn_Release_v1.zip`, **SHA-256 `80917390a3979b32175e9ced4024669ac1be345e655d96fc41707373ebad1a99`**. Bản ZIP và 60 hình PNG/WebP đã được lưu trên Google Drive. GitHub lưu chỉ mục và checksum, không lưu bản nhị phân.
+- [Danh mục 30 pose](assets/RELEASE_INDEX_V1.csv) • [Phiên bản và QA](docs/visual/CHARACTER_RELEASE_V1.md) • [Prompt](docs/visual/PROMPT_REGISTRY_V1.md).
 
-## Hồ sơ Giai đoạn 1B
-- [Quy chuẩn khóa phong cách](docs/visual/STYLE_LOCK_V1.md)
-- [Kế hoạch Character Master 12 hình](docs/visual/CHARACTER_MASTER_PHASE_1B.md)
-- [Danh mục và trạng thái từng tài sản](docs/visual/ASSET_MANIFEST.csv)
-- [Định hướng GitHub ↔ Drive ↔ Apps Script](docs/architecture/INTEGRATION.md)
+## Chính sách lưu trữ kép (bắt buộc)
+1. Google Drive lưu gốc PNG/WebP/sheet. GitHub lưu code, manifest, prompt, checksum và lịch sử thay đổi.
+2. Không gắn `SYNCED_VERIFIED` nếu chưa upload và kiểm tra lại **cả hai kho**.
+3. Không ghi đè asset đã được duyệt; tạo phiên bản mới.
+4. Không lưu token, khóa bí mật hoặc dữ liệu định danh học sinh trong repo.
 
-## Nguyên tắc
-Hai thẻ bài học đã duyệt là **mẫu mỹ thuật/bố cục**, không phải dữ liệu bài học đã kiểm chứng và không được coi là các nhân vật PNG riêng lẻ có nền trong. Ảnh chỉ chuyển sang trạng thái APPROVED sau khi kiểm tra tính nhất quán, nền alpha, quyền sử dụng, khả năng đọc trên điện thoại và ứng dụng.
+Đọc: [ASSET_STORAGE_POLICY_V1.md](docs/visual/ASSET_STORAGE_POLICY_V1.md) và [định hướng Google Apps Script](docs/architecture/INTEGRATION.md).
 
-**Bảo mật:** Không commit secret, OAuth token, thông tin riêng tư học sinh hay dữ liệu điểm số.
+**Tình trạng kết nối:** Mã và quy chuẩn đã có PR nháp; ZIP và 60/60 ảnh Drive đã được đọc lại và đối chiếu toàn vẹn. Chưa có tự động hóa Google Apps Script.
+
+## Xác minh kho tài nguyên
+[Báo cáo xác minh lưu trữ kép và QA](docs/visual/DUAL_STORAGE_VERIFICATION_V1.md): 60/60 ảnh khớp SHA-256/byte; lưu trữ `SYNCED_VERIFIED`, chất lượng nghệ thuật `REVIEW_REQUIRED`.

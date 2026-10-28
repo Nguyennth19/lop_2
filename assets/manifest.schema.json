@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KidLearn asset manifest item",
+  "type": "object",
+  "required": [
+    "asset_id",
+    "character",
+    "set",
+    "png_path",
+    "sha256",
+    "review_status"
+  ],
+  "properties": {
+    "asset_id": {
+      "type": "string"
+    },
+    "character": {
+      "enum": [
+        "ROBOT",
+        "BOY",
+        "GIRL"
+      ]
+    },
+    "set": {
+      "type": "string"
+    },
+    "costume": {
+      "type": "string"
+    },
+    "pose_code": {
+      "type": "string"
+    },
+    "png_path": {
+      "type": "string"
+    },
+    "webp_path": {
+      "type": "string"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "review_status": {
+      "enum": [
+        "REVIEW_REQUIRED",
+        "APPROVED_LOCAL",
+        "DRIVE_STORED",
+        "GITHUB_INDEXED",
+        "SYNCED_VERIFIED"
+      ]
+    },
+    "drive_file_id": {
+      "type": "string"
+    },
+    "drive_url": {
+      "type": "string"
+    },
+    "github_path": {
+      "type": "string"
+    }
+  }
+}
