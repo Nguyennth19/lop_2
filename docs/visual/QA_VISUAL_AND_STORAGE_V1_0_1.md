@@ -26,3 +26,13 @@ Date: 2026-10-28 (ICT). Release candidate for human visual approval.
 **ART: REVIEW_REQUIRED** for all 30 until human reviews full-size 96px and 300px displays against contrasting backgrounds, approves identity/style and checks Chrome preview.
 **APP / pedagogy:** visual demonstration only. Math and Vietnamese items are layout tests, not lessons validated against the textbook. Chrome headless screenshot did not finish in this environment; manual Chrome acceptance is still pending.
 **PRODUCTION:** no CDN/Apps Script integration confirmed; do not deploy as approved.
+
+## Browser-render smoke test (headless Chromium)
+- Browser: Chromium via Playwright; tested the same HTML markup, CSS and app JS as the ZIP preview. Local `file://` navigation was blocked by sandbox administrator, so images were inlined as base64 **solely for the test run**. The distributed preview remains relative-file based, unchanged.
+- Desktop viewport 980 × 790, phone viewport 375 × 812.
+- All 7 referenced official WebP images loaded successfully with nonzero natural dimensions.
+- Homepage rendered three official characters; Math choice `43` and Vietnamese choice `chăm chỉ` both produced the expected success feedback.
+- No browser JavaScript page errors.
+- Desktop screenshot: https://drive.google.com/file/d/179W6CtGDvjn0-W1p2NQ2Cpbwy063iDg0/view
+- Mobile screenshot: https://drive.google.com/file/d/1W8LRyg39kSlCNxsQbH9FCxM_RPT_zHLQ/view
+- **Remaining:** actual user-device Chrome check with extracted ZIP and human visual/attention approval. Do not mark artwork APPROVED.
