@@ -9,3 +9,8 @@ Released for QA 2026-10-28; builds on v1.0.0. Changes exactly 6 of 30 poses.
 - Drive: https://drive.google.com/drive/folders/1lDde-KUs8sc5UQ3GP0GEuPdLmn2YqT2x
 - Status: **SYNCED_VERIFIED (storage)**; **REVIEW_REQUIRED (art)**.
 - Do not merge into main until manual approval and application QA.
+
+## Human visual acceptance — 2026-10-28
+- Owner visually tested and approved the 30-character v1.0.1 preview, with positive feedback from the child. **Art: APPROVED**.
+- Storage remains **SYNCED_VERIFIED**; pedagogical textbook alignment and production integration remain pending.
+- PR remains unmerged. V1.0.0 remains unchanged.
